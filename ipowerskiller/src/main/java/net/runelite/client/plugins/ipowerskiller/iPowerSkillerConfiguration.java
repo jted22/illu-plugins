@@ -224,7 +224,7 @@ public interface iPowerSkillerConfiguration extends Config
 	}
 
 	@ConfigItem(
-		keyName = "instructions-test",
+		keyName = "instructions",
 		name = "",
 		description = "Instructions. Don't enter anything into this field",
 		position = 20,
@@ -232,7 +232,7 @@ public interface iPowerSkillerConfiguration extends Config
 	)
 	default String instructions()
 	{
-		return "Use Developer Tools to determine the Type and ID of the object you want to power-skill on." +
+		return "test1 - Use Developer Tools to determine the Type and ID of the object you want to power-skill on." +
 			"Typically in-game objects that have blue hover text are Game Objects (trees, rocks etc.) and objects that have yellow text are NPCs (fishing spots etc.)";
 	}
 
