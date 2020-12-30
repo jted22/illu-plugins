@@ -224,7 +224,7 @@ public interface iPowerSkillerConfiguration extends Config
 	}
 
 	@ConfigItem(
-		keyName = "instructions",
+		keyName = "instructions-test",
 		name = "",
 		description = "Instructions. Don't enter anything into this field",
 		position = 20,
